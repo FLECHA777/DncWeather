@@ -5,8 +5,6 @@ async function getAddressByCep(){
         const response = await fetch(`https://viacep.com.br/ws/${cep}/json/`);
         const data = await response.json();
 
-        console.log(data);
-        // const log =;
         const brr = data.bairro;
         const loc = data.localidade;
 
@@ -22,9 +20,6 @@ async function getAddressByCep(){
 async function getAddressByMeteo(){
     const lat = document.getElementById(`lat`).value;
     const long = document.getElementById(`long`).value;
-    
-    console.log(lat);
-    console.log(long);
 
     try {
         const response = await fetch(`https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${long}&current=temperature_2m`);
