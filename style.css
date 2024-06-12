@@ -55,14 +55,14 @@ nav li a{
     color: black;
 }
 
-section{
+form{
     background-color: #fff;
     width: 50%;
     margin: auto;
     border-radius: 10px;
 }
 
-section button:hover{
+form button:hover{
     transform: translateY(-4px);
     box-shadow: 0px 15px 20px #315baa;
     background-color: #06489e;
@@ -74,7 +74,6 @@ section button:hover{
 }
 
 .busca p{
-    text-decoration: none;
     color:aliceblue;
     font-family: "inter";
     font-size: 20px;
@@ -83,7 +82,6 @@ section button:hover{
 
 .result p {
     color:black;
-    text-decoration: none;
     font-family: "inter";
     font-size: 18px;
     font-weight: 800;
