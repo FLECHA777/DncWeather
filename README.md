@@ -1,3 +1,3 @@
 ﻿# DncWeather
  
-https://flechaweather.netlify.app/#prev
+https://flechaweather.netlify.app
